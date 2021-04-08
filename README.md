@@ -2,7 +2,8 @@
 
 ## I am a marine molecular ecologist.
 
-### My expertise includes coral reef organisms (especially scleractinian corals) from individual 🔬 to populations 🧬! 
+### My expertise includes coral reef organisms (especially scleractinian corals) 
+from individual 🔬 to populations 🧬! 
 
 
 ### 🔭 I’m currently working on scleractinian coral strategies 

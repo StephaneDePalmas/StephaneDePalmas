@@ -1,6 +1,6 @@
 # My name is Stephane de Palmas, hi there! 👋
 
-## I am a marine molecular ecologist 👨‍🔬 🔍🥽📊🧪.
+## I am a marine molecular ecologist 🥽🐚👨‍🔬🔍🧪📊.
 
 ### My expertise includes coral reef organisms (especially scleractinian corals) 
 from individual 🔬 to populations 🧬! 
@@ -10,7 +10,7 @@ from individual 🔬 to populations 🧬!
 
 ### 🌱 I’m currently learning R programming / Github / html-CSS
 
-### 💬 Ask me about anything about coral reefs, really!
+### 💬 Ask me about anything about coral reefs, really
 
 ### 📫 How to reach me: depalmasstephane[at]gmail.com
 

@@ -1793,7 +1793,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			max-height: 200px;
-			width: auto;;
+			max-width: 200px;
 		}
 
 		.image.featured {

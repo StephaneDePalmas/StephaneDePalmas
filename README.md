@@ -8,7 +8,7 @@
 
 ### 🌱 I’m currently learning R programming / Github / html-CSS
 
-### 💬 Ask me about anything about coral reefs, really
+### 💬 Ask me  anything about coral reefs, really
 
 ### 📫 How to reach me: depalmasstephane[at]gmail.com
 

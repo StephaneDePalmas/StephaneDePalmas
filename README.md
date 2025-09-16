@@ -1,16 +1,12 @@
-# My name is Stephane de Palmas, hi there! 👋
+I’m a marine biologist/molecular ecologist studying reef ecosystems and reef organisms ecology.  
+My work focuses on (but is not limited to):  
+- 🪸 Hard corals (Scleractinia): taxonomy, diversity, and physiology  
+- 🌊 Community dynamics under climate change and human disturbances  
+- 🧬 Genomics & population genetics: uncovering the bases of coral resilience  
+- 📊 Data analysis in R for ecology and biodiversity research  
 
-## I am a marine molecular ecologist 🥽🐚👨‍🔬🔍🧪📊.
+I’m currently based at the **Academia Sinica Marine Research Station**.  
 
-### My expertise includes coral reef organisms (especially scleractinian corals) from individual 🔬 to populations 🧬! 
+🔗 [ORCID](https://orcid.org/0000-0002-2567-1789) · [Google Scholar]([your-scholar-link](https://www.researchgate.net/profile/Stephane-De-Palmas?ev=hdr_xprf))  
 
-### 🔭 I’m currently working on scleractinian coral strategies 
-
-### 🌱 I’m currently learning R programming / Github / html-CSS
-
-### 💬 Ask me  anything about coral reefs, really
-
-### 📫 How to reach me: depalmasstephane[at]gmail.com
-
-### ⚡ If you are looking for a diving/bouldering buddy, look no more!
 

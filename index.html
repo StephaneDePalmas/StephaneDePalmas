@@ -1,241 +1,138 @@
-<!DOCTYPE HTML>
-<!--
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Stéphane de Palmas</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stéphane de Palmas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
 
-			<!-- Header -->
-				<div id="header">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">Stéphane de Palmas</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#research" class="hover:text-blue-600">Research</a>
+        <a href="#publications" class="hover:text-blue-600">Publications</a>
+        <a href="#cv" class="hover:text-blue-600">CV</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<h1 style="color:white;"><a href="index.html" id="logo"> Stéphane de Palmas </a></h1>
-								<hr />
-							</header>
-							<footer>
-								<a href="#banner" class="button circled scrolly">Start</a>
-							</footer>
-						</div>
+  <!-- Hero / Banner -->
+  <section class="bg-gradient-to-r from-blue-50 to-blue-100 py-20 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Marine Biologist & Molecular Ecologist</h2>
+      <p class="text-lg text-gray-700 mb-6">
+        Studying coral reef ecosystems at the edge of their distribution: high-latitude and mesophotic reefs.
+      </p>
+      <a href="#about" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Start</a>
+    </div>
+  </section>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>
-									<a href="#">Dropdown</a>
-									<ul>
-										<li><a href="#">Current projects</a></li>
-										<li><a href="#">Curriculum vitae</a></li>
-										<li><a href="#">Published work</a></li>
-									</ul>										
-								</li>
-										
-							
-						</nav>
+  <!-- Research Carousel / Highlights -->
+  <section id="highlights" class="py-16">
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/compo1.png" alt="Coral reef ecology" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Coral reef ecology</h3>
+        <p>Monitoring reefal communities and predicting responses to natural and human-made disturbances.</p>
+      </article>
 
-				</div>
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/traditaxo1.png" alt="Traditional coral taxonomy" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Traditional coral taxonomy</h3>
+        <p>Identifying corals to species level using skeletal microscopic observations in the Indo-Pacific region.</p>
+      </article>
 
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2> Briefly, this is what I do: </h2>
-						<p>
-						</p>
-					</header>
-				</section>
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/moltaxo.png" alt="Molecular coral taxonomy" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Molecular coral taxonomy</h3>
+        <p>Combining traditional and molecular approaches to identify species and assess molecular diversity.</p>
+      </article>
 
-			<!-- Carousel -->
-				<section class="carousel">
-					<div class="reel">
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/popgen.png" alt="Population genetics" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Population genetics</h3>
+        <p>Using microsatellite markers to assess population dynamics and predict coral recovery.</p>
+      </article>
 
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/compo1.png" alt=""/></a>
-							<header>
-								<h3><a href="#"> Coral reef ecology </a></h3>
-							</header>
-							<p> 
-Coral reefs are exceptional marine ecosystems, yet they are also threaten by recurrent natural and human-made disturbances. I am monitoring the responses of reefal communities 
-(hard corals, soft corals, sponges, algae, etc) to these disturbances and try to predict how future reefs will look like. (I am a CPCe "enthousiast").
-							</p>
-						</article>
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/pic05.jpg" alt="Organismal performances" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Organismal performances</h3>
+        <p>Assessing individual performance to predict community trajectory after disturbances.</p>
+      </article>
 
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/traditaxo1.png" alt=""/></a>
-							<header>
-								<h3><a href="#"> Traditional coral taxonomy </a></h3>
-							</header>
-							<p> 
-Scleractinian corals are the main engineer of modern coral reefs, yet identifying their species <i>in situ</i> is rock hard (seriously 😅). I am using a "traditional approach" based on 
-skeletal microscopic observations to identify most corals to the species level (mainly for coral from the Indo-Pacific region)! 
-							</p>
-						</article>
+      <article class="bg-white rounded shadow p-4">
+        <img src="images/diver1.jpg" alt="Field molecular ecologist" class="rounded mb-4"/>
+        <h3 class="text-xl font-semibold mb-2">Field molecular ecologist</h3>
+        <p>Field experience from around the world, diving, molecular ecology, and coding applied to coral research.</p>
+      </article>
+    </div>
+  </section>
 
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/moltaxo.png" alt="" /></a>
-							<header>
-								<h3><a href="#"> Molecular coral taxonomy </a></h3>
-							</header>
-							<p> 
-Scleractinian corals often look the same <i>in situ</i> but are genetically different. I am combining traditional and molecular approaches (mitochondrial and nuclear markers) 
-to better identify species and assess molecular diversity ("each slight variation, if useful, is preserved") within natural populations.
-							</p>
-						</article>
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+    <p class="text-gray-700 leading-relaxed">
+      I am a marine biologist and molecular ecologist based at the University of the Ryukyus, Okinawa. My research focuses on hard corals (Scleractinia), exploring their taxonomy, diversity, physiological performance, and genetic adaptation in response to climate change and human disturbances.
+    </p>
+  </section>
 
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/popgen.png" alt="" /></a>
-							<header>
-								<h3><a href="#"> Population genetics </a></h3>
-							</header>
-							<p> 
-Population genetics can be a very useful tool to understand past and present dynamics of scleractinian coral populations (breeding status, population size, connectivity level, etc). 
-I use microsatellites markers to assess this dynamic and better predict how corals may recover (or not) following major disturbances.   
-							</p>
-						</article>
-						
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#"> Organismal performances </a></h3>
-							</header>
-							<p> 
-Changes in benthic communities is likely the end result of disturbances. Individuals may perform differently, adjusting their physiology or relying on their genetical background to 
-better cope (or not) with disturbances. I am trying to assess this organism "performance" to better predict the community trajectory. 
-							</p>
-						</article>
-						
-						<article>
-							<a href="#" height=300px class="image featured"><img src="images/diver1.jpg" alt="" /></a>
-							<header>
-								<h3><a href="#"> Field molecular ecologist </a></h3>
-							</header>
-							<p> 
-I see myself as an enthousiast field molecular ecologist, diver, with field experiences from many places around the world (Reunion Island, Taiwan, Palau, the Phillipines, Japan, etc).
-NITROX/TRIMIX certified, tech diver, familiar with molecular biology methods applied to ecology and still learning new things (like coding 😁)!
-							</p>
-						</article>
-						
-					</div>
-				</section>
+  <!-- Research Section -->
+  <section id="research" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-4">Research Interests</h3>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Hard coral taxonomy and species diversity</li>
+        <li>Community dynamics under environmental change</li>
+        <li>Physiological performance at high-latitude and mesophotic depths</li>
+        <li>Population genetics and genomic adaptation</li>
+        <li>Data analysis and visualization in R</li>
+      </ul>
+    </div>
+  </section>
 
-					<!--
-			<!-- Main -->
-				<div class="wrapper style2">
+  <!-- Publications Section -->
+  <section id="publications" class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-4">Publication List</h3>
+    <ul class="space-y-4 text-gray-700">
+      <li>
+        <strong>Rapid shift in benthic assemblages following coral bleaching at an upper mesophotic habitat in Taiwan</strong><br/>
+        <em>Marine Biodiversity</em>, 2024. <a href="#" class="text-blue-600 hover:underline">DOI link</a>
+      </li>
+      <!-- Add more publications here -->
+    </ul>
+  </section>
 
-					<article id="main" class="container special">
-						<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-						<header>
-							<h2><a href="#">I am currently working as a postdoctoral fellow in Dr. Vianney Denis lab!</a></h2>
-							<p>
-The Functional Reef Ecology lab is developping very interesting approaches to better understand how our reefs work, how they are being impacted by the current trend of 
-worldwide degradation and how they are recovering following disturbances! We are interested by any kind of coral ecosystem, from shallow to deep, wherever they are! 
-							</p>
-						</header>
-						<p>
-You are interested by coral reefs and reefs organisms inn general (not just scleractinian corals but also everything else). Your ideal profesionnal life is shared between
-a little bit of diving / some lab work / running all sorts of cool experiment and analysis / discuss new ideas around a coffee / get everything published 
----->>> REACH OUT!
-						</p>
-						<footer>
-							<a href="https://www.dipintothereef.com/the-lab.html" class="button">FRE lab</a>
-						</footer>
-					</article>
+  <!-- CV Section -->
+  <section id="cv" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-4">Curriculum Vitae</h3>
+      <p class="text-gray-700 mb-4">You can add your detailed CV content here. For example, education, work experience, awards, and skills.</p>
+      <p class="text-gray-700">[CV content placeholder]</p>
+    </div>
+  </section>
 
-				</div>
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-4">Contact</h3>
+    <p class="text-gray-700 mb-4">Feel free to reach out for collaborations or questions.</p>
+    <ul class="space-y-2 text-gray-700">
+      <li>📧 depalmasstephane@gmail.com</li>
+      <li>🔗 <a href="https://orcid.org/0000-0002-2567-1789" class="text-blue-600 hover:underline">ORCID</a></li>
+      <li>🔗 <a href="https://scholar.google.com" class="text-blue-600 hover:underline">Google Scholar</a></li>
+      <li>🔗 <a href="https://github.com/StephaneDePalmas" class="text-blue-600 hover:underline">GitHub</a></li>
+    </ul>
+  </section>
 
-			<!-- Features -->
-				<div class="wrapper style1">
+  <!-- Footer -->
+  <footer class="bg-white border-t mt-12 py-6 text-center text-gray-500">
+    © 2025 Stéphane de Palmas
+  </footer>
 
-					
-
-				</div>
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-
-							
-							<!-- Photos -->
-								<section class="col-4 col-12-mobile">
-									<header>
-										<h2 class="icon solid fa-camera circled"><span class="label">Photos</span></h2>
-									</header>
-									<div class="row gtr-25">
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-										</div>
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-										</div>
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-										</div>
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-										</div>
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-										</div>
-										<div class="col-6">
-											<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
-										</div>
-									</div>
-								</section>
-
-						</div>
-						<hr />
-						<div class="row">
-							<div class="col-12">
--->
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>Looking for contacts?</h3>
-										</header>
-										<p>Follow my research using the links below and feel free to contact me!</p>
-										<ul class="icons">
-											<li><a href="https://twitter.com/PalmasStephane" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="https://www.linkedin.com/in/stephane-de-palmas-79766388/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-											<li><a href="https://www.researchgate.net/profile/Stephane-De-Palmas" class="fab fa-researchgate"><span class="label"></span></a></li>
-										</ul>
-									</section>
-
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-										</ul>
-									</div>
-
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>

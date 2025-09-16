@@ -7,6 +7,6 @@ My work focuses on (but is not limited to):
 
 I’m currently based at the **Academia Sinica Marine Research Station**.  
 
-🔗 [ORCID](https://orcid.org/0000-0002-2567-1789) · [Google Scholar]([your-scholar-link](https://www.researchgate.net/profile/Stephane-De-Palmas?ev=hdr_xprf))  
+🔗 [ORCID](https://orcid.org/0000-0002-2567-1789) · [Google Scholar](https://www.researchgate.net/profile/Stephane-De-Palmas?ev=hdr_xprf)  
 
 
